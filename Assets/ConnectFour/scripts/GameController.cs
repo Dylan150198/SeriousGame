@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 namespace ConnectFour
 {
@@ -61,6 +62,7 @@ namespace ConnectFour
 
 		bool gameOver = false;
 		bool isCheckingForWinner = false;
+		int easterEggCounter = 0;
 		
 		public ScoreController _scoreController;
 
@@ -167,7 +169,7 @@ namespace ConnectFour
 					btnPlayAgainTouching = true;
 					
 					//CreateField();
-					Application.LoadLevel(0);
+					SceneManager.LoadScene("ConnectFour");
 				}
 			}
 			else
@@ -328,6 +330,15 @@ namespace ConnectFour
 					yield return null;
 
 				UpdateActivePlayer();
+			}
+			else
+			{
+				//clicked on full column
+				easterEggCounter++;
+				if (easterEggCounter == 5)
+				{
+					StartCoroutine(_scoreController.StartEasterEgg());
+				}
 			}
 
 			isDropping = false;
