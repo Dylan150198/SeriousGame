@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class OnHit : MonoBehaviour
 {
-    public int score;
-    public Text scoreDisplay;
+    private GameLogic gameLogic; 
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameLogic = GameObject.Find("GameManager").GetComponent<GameLogic>();
     }
 
+    // Tell GameLogic that this target has been destroyed and the score needs to be incremented
     void OnMouseDown()
     {
-        score++;
-        scoreDisplay.text = score.ToString();
+        gameLogic.incrementScore(1);
         Destroy(gameObject);
     }
 
