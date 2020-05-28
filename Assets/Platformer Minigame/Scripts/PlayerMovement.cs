@@ -54,7 +54,6 @@ public class PlayerMovement : MonoBehaviour
 	{
 		controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
 		jump = false;
-
 	}
 }
 
