@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Red
+  - Blue
+  - Piece
+  - HintUsedLabel
   layers:
   - Default
   - TransparentFX
@@ -13,8 +17,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Blue
+  - Red
   - 
   - 
   - 
@@ -40,10 +44,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Background
-    uniqueID: 2912188065
-    locked: 0
-  - name: Foreground
-    uniqueID: 1403162563
     locked: 0
