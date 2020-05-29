@@ -9,6 +9,7 @@ public class ButtonClicked : MonoBehaviour
     public Sprite[] spriteArray;
     public SpriteRenderer spriteRenderer;
     public Button correctBtn;
+
     public int currentSprite = 0;
 
     // Correct button location, based on current sprite
