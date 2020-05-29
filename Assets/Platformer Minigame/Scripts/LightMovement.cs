@@ -10,6 +10,7 @@ public class LightMovement : MonoBehaviour
 	private float verticalMove = 0f;
 	private bool v_Move = false;
 	public Joystick joystick;
+	
 
 
 
@@ -18,7 +19,7 @@ public class LightMovement : MonoBehaviour
 	private void Update()
 	{
 
-		if (joystick.Horizontal >= .3f)
+		if (joystick.Horizontal >= .3f )
 		{
 			horizontalMove = Speed;
 		}
