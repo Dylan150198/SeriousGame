@@ -5,9 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
-    public void StartConnectFour()
+    public int sceneLoadTime;
+    public GameObject loadingPanel;
+
+    private void Start()
     {
-        SceneManager.LoadScene("ConnectFour");
+        loadingPanel.SetActive(false);
+    }
+
+    public void StartScene(string sceneName)
+    {
+        StartCoroutine(LoadScene(sceneName));
+    }
+
+    private IEnumerator LoadScene(string sceneName)
+    {
+        loadingPanel.SetActive(true);
+        yield return new WaitForSeconds(sceneLoadTime);
+        SceneManager.LoadScene(sceneName);
     }
 
     public void StartMotoringMaze()
