@@ -22,8 +22,21 @@ public class MainMenuManager : MonoBehaviour
     private IEnumerator LoadScene(string sceneName)
     {
         loadingPanel.SetActive(true);
+
+        // Fake loading time
         yield return new WaitForSeconds(sceneLoadTime);
-        SceneManager.LoadScene(sceneName);
+        
+        // True loading operation
+        AsyncOperation asyncOp = SceneManager.LoadSceneAsync(sceneName);
+
+        while (!asyncOp.isDone)
+        {
+            // Play spritesheet loading animation or/and show instructions
+            Debug.Log("Waiting");
+
+            // This finishes the async operation
+            yield return null;
+        }
     }
 
 
