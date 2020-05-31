@@ -23,6 +23,7 @@ public class ScoreController : MonoBehaviour
     public Color redPieceDefaultColor;
     public Color bluePieceDefaultColor;
     public Color ColorBlindColor;
+    private bool _easterEggActive = false;
 
     void Start()
     {
@@ -66,6 +67,18 @@ public class ScoreController : MonoBehaviour
         _timeInCurrentMove = 0;
     }
 
+    public IEnumerator StartEasterEgg()
+    {
+        _easterEggActive = true;
+        GameObject[] pieces = GameObject.FindGameObjectsWithTag("Piece");
+        foreach (var piece in pieces)
+        {
+            piece.AddComponent<ColorChange>();
+        }
+        
+        yield return 0;
+    }
+
     private void UpdateScore()
     {
         scoreText.text = "Penalty Score: " + _score;
@@ -78,6 +91,7 @@ public class ScoreController : MonoBehaviour
 
     private void HintUsed()
     {
+        if (_easterEggActive) return;
         _hintInUse = true;
         _score += penaltyScoreForHint;
         UpdateScore();
@@ -87,6 +101,7 @@ public class ScoreController : MonoBehaviour
 
     private void DeactivateHint()
     {
+        if (_easterEggActive) return;
         _hintInUse = false;
         HidePieceMaterialColors();
         DisplayHintUsedLabel(false);
