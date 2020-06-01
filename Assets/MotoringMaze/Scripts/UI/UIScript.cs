@@ -30,5 +30,10 @@ public class UIScript : MonoBehaviour
             }
             countdownText.SetText(Math.Round(countdownTime).ToString());
         }
+
+        if (MazeGame.state == GameState.STOPPED)
+        {
+            
+        }
     }
 }

@@ -24,7 +24,7 @@ public class MazeScroller : MonoBehaviour
             if(!gameMusic.isPlaying)
                 gameMusic.Play();
 
-            float newYpos = Mathf.Clamp(player.transform.position.y, -2f, 41.0f);
+            float newYpos = Mathf.Clamp(player.transform.position.y, -2f, 45.0f);
             Vector3 nv = new Vector3(transform.position.x, newYpos  + 3.25f, transform.position.z);
             transform.position = Vector3.Lerp(transform.position, nv, 0.02f);
         }
