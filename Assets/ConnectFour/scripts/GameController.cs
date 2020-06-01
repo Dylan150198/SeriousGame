@@ -361,7 +361,7 @@ namespace ConnectFour
 					// Layermask Blue otherwise Layermask Red
 					int layermask = isPlayersTurn ? (1 << 8) : (1 << 9);
 
-					// If its Players turn ignore red as Starting piece and wise versa
+					// If its Players turn ignore red as Starting piece and vise versa
 					if(field[x, y] != (isPlayersTurn ? (int)Piece.Blue : (int)Piece.Red))
 					{
 						continue;
@@ -444,6 +444,11 @@ namespace ConnectFour
 					gameOver = true;
 					winningText.GetComponent<TextMesh>().text = drawText;
 				}
+			}
+
+			if (gameOver)
+			{
+				_scoreController.StopScore();
 			}
 
 			isCheckingForWinner = false;
