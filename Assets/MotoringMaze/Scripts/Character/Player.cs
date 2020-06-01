@@ -8,16 +8,36 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     public GameObject particleSystem;
     public AudioSource bumpAudio;
-    private CircleCollider2D circleCollider;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         bumpAudio = GetComponent<AudioSource>();
-        circleCollider = GetComponent<CircleCollider2D>();
+
+        EventSystem.current.OnGameStateChanged += OnGameStateChanged;
+        rb.simulated = false;
     }
 
-    void Update()
+	private void OnGameStateChanged(GameState obj)
+	{
+		switch (obj)
+		{
+			case GameState.MENU:
+				break;
+			case GameState.LOADED:
+				break;
+			case GameState.STARTED:
+                rb.simulated = true;
+                break;
+			case GameState.STOPPED:
+                rb.simulated = false;
+                break;
+			default:
+				break;
+		}
+	}
+
+	void Update()
     {
         if (MazeGame.state == GameState.STARTED)
         {
@@ -30,7 +50,7 @@ public class Player : MonoBehaviour
                 newPos.x = worldPos.x;
                 newPos.y = worldPos.y;
 
-                if (IsInside(rb, worldPos, circleCollider))
+                if (IsInside(worldPos))
                 {
                     rb.MovePosition(newPos);
                 }
@@ -38,7 +58,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    public bool IsInside(Rigidbody2D c, Vector3 point, CircleCollider2D cc)
+    public bool IsInside(Vector3 point)
     {
         float dist = Vector3.Distance(transform.position, point);
         return dist < 0.6f;
