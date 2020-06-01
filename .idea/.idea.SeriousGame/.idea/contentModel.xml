@@ -83,7 +83,6 @@
             </e>
           </e>
         </e>
-        <e p="MoveByTouch.cs" t="Include" />
         <e p="Platformer Minigame" t="Include">
           <e p="AstarPathfinding" t="Include">
             <e p="AstarPathfindingProject.asmdef" t="Include" />
@@ -314,9 +313,17 @@
           </e>
           <e p="scripts" t="Include">
             <e p="CharacterController2D.cs" t="Include" />
+            <e p="Coin.cs" t="Include" />
             <e p="EnemyAI.cs" t="Include" />
             <e p="EnemyGFX.cs" t="Include" />
+            <e p="EventHandler.cs" t="Include" />
+            <e p="FollowCamera.cs" t="Include" />
+            <e p="JoystickLight.cs" t="Include" />
+            <e p="LightController.cs" t="Include" />
+            <e p="LightMovement.cs" t="Include" />
+            <e p="MoveByTouch.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
+            <e p="ScoreManager.cs" t="Include" />
           </e>
         </e>
         <e p="scripts" t="Include">

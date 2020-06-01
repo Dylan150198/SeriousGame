@@ -24,36 +24,42 @@ public class ScoreController : MonoBehaviour
     public Color bluePieceDefaultColor;
     public Color ColorBlindColor;
     private bool _easterEggActive = false;
+    private bool _gameActive;
 
     void Start()
     {
         HidePieceMaterialColors();
         hintUsedText.text = "Hint used! (+" + penaltyScoreForHint + " penalty)";
         DisplayHintUsedLabel(false);
+        _gameActive = true;
     }
 
     void Update()
     {
-        _timeInCurrentMove += Time.deltaTime;
-        _timeElapsedSinceLastReset += Time.deltaTime;
-        if (_timeElapsedSinceLastReset > 1)
+        if (_gameActive)
         {
-            float timeScore = _timeElapsedSinceLastReset * penaltyScorePerSecond;
-            _score += Mathf.CeilToInt(timeScore);
-            _timeElapsedSinceLastReset = 0;
-            UpdateScore();
-        }
-        if (_timeInCurrentMove > hintAfterSeconds && !_hintInUse && _timeHintActive == 0f)
-        {
-            HintUsed();
-        }
-
-        if (_hintInUse)
-        {
-            _timeHintActive += Time.deltaTime;
-            if (_timeHintActive >= hintLastsSeconds)
+            _timeInCurrentMove += Time.deltaTime;
+            _timeElapsedSinceLastReset += Time.deltaTime;
+            if (_timeElapsedSinceLastReset > 1)
             {
-                DeactivateHint();
+                float timeScore = _timeElapsedSinceLastReset * penaltyScorePerSecond;
+                _score += Mathf.CeilToInt(timeScore);
+                _timeElapsedSinceLastReset = 0;
+                UpdateScore();
+            }
+
+            if (_timeInCurrentMove > hintAfterSeconds && !_hintInUse && _timeHintActive == 0f)
+            {
+                HintUsed();
+            }
+
+            if (_hintInUse)
+            {
+                _timeHintActive += Time.deltaTime;
+                if (_timeHintActive >= hintLastsSeconds)
+                {
+                    DeactivateHint();
+                }
             }
         }
     }
@@ -75,8 +81,15 @@ public class ScoreController : MonoBehaviour
         {
             piece.AddComponent<ColorChange>();
         }
-        
+
         yield return 0;
+    }
+
+    public void StopScore()
+    {
+        _gameActive = false;
+        
+        //TODO: submit score to highscores.
     }
 
     private void UpdateScore()
