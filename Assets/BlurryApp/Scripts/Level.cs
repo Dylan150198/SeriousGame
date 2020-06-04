@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Level
+public class Level : MonoBehaviour
 {
     public string objectiveText;
+    public SubLevel[] subLevels = new SubLevel[5];
     // Start is called before the first frame update
     void Start()
     {
