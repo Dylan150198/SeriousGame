@@ -13,6 +13,7 @@ public class SongList : MonoBehaviour
     private SongRoot songRoot;
     public RectTransform canvas;
     public GameObject prefabButton;
+    public GameObject ScrollView;
     private int i = 0;
     private int distanceBetweenButtons = 0;
     public Image black;
@@ -28,27 +29,38 @@ public class SongList : MonoBehaviour
         foreach (var item in songRoot.songs)
         {
             GameObject button = (GameObject) Instantiate(prefabButton);
-            button.transform.SetParent(canvas, false);
-            button.transform.localScale = new Vector3(2, 2, 2);
+            //button.transform.SetParent(canvas, false);
+            button.transform.SetParent(ScrollView.transform);
+            button.transform.localScale = new Vector3(1, 1, 1);
 
-            var posButton = new Vector3(canvas.position.x, canvas.position.y + distanceBetweenButtons, canvas.position.z);
+            //var posButton = new Vector3(ScrollView.transform.position.x, ScrollView.transform.position.y - distanceBetweenButtons, ScrollView.transform.position.z);
+          
+
+            int highscore = 0;
+
+            //if (PlayerPrefs.HasKey("CurrentHighScore" + item.songName))
+            //{
+                highscore = PlayerPrefs.GetInt("CurrentHighScore" + item.path);
+            //}
+
+            var posButton = new Vector3(button.transform.position.x, button.transform.position.y - distanceBetweenButtons, button.transform.position.z);
+
             var buttonText = button.GetComponentInChildren<TextMeshProUGUI>();
-            buttonText.text = item.songName + " | " + item.difficulity;
-            button.transform.position = posButton;
+            buttonText.text = item.songName + " | " + item.difficulity + "| " + "Highscore: " + highscore;
 
-            // get score 
-            
+            button.transform.position = posButton;
+            //button.transform.position.y = distanceBetweenButtons;
+       
 
             Button tempButton = button.GetComponent<Button>();
             int tempInt = i;
 
             i++;
-            distanceBetweenButtons += 150;
+            distanceBetweenButtons += 200;
 
             tempButton.onClick.AddListener(() => ButtonClicked(tempInt));
         }
     }
-
 
     void ButtonClicked(int buttonNo)
     {
