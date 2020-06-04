@@ -15,9 +15,4 @@ public class RandomSpawnPointPicker : MonoBehaviour
         Instantiate(circle, new Vector3(spawnPoint.x, spawnPoint.y, spawnPoint.z), pieceRotation);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

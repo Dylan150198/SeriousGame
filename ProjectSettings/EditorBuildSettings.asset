@@ -32,4 +32,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MotorSkills_SongSelection.unity
+    guid: 6ac275aa0f317274b8b5518caecd1c7a
+  - enabled: 1
+    path: Assets/Scenes/MotorSkills_SongPlaying.unity
+    guid: 854b9e7e5c3144a43b1f25b5252cf41f
+  - enabled: 1
+    path: Assets/Scenes/MotorSkills_SongEnded.unity
+    guid: e6b1526eb8ccb474faa4e67444fc8da9
   m_configObjects: {}

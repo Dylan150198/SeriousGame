@@ -19,9 +19,21 @@ public class GameLogic : MonoBehaviour
         scoreManager.addScore(score);
     }
 
-    // Update is called once per frame
-    void Update()
+    // Tell scoremanager to add score to the combo
+    public void addToCombo(int score)
     {
-        
+        scoreManager.updateCombo(score);
+    }
+
+    // Tell scoremanager to reset the combo
+    public void resetCombo()
+    {
+        scoreManager.resetCombo();
+    }
+
+    // Tell scoremanager to add a miss
+    public void addMiss()
+    {
+        scoreManager.addMiss(1);
     }
 }

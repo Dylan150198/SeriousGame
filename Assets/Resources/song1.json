@@ -1,0 +1,19 @@
+{
+  "targets": [
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 1
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 2
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 3
+    }
+  ]
+}
