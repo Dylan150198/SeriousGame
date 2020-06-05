@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-
+	
 	private int coinValue = 5;
 	public int score = 0;
+
 
 	public void Start()
 	{
@@ -15,6 +16,7 @@ public class ScoreManager : MonoBehaviour
 	private void OnCoinPickUp()
 	{
 		score += coinValue;
+		
 	}
 
 	private void OnDestroy()

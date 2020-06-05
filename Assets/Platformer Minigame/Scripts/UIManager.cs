@@ -51,8 +51,8 @@ public class UIManager : MonoBehaviour
     {
         if (ScoreManager.score != score)
         {
-            score = ScoreManager.score -5;
-            textScore.text = score.ToString();
+            score = ScoreManager.score;
+            textScore.text = "Score: " + score.ToString();
         }
 
         if (PlatformManager.currentState == GameState.STARTED)
@@ -63,7 +63,7 @@ public class UIManager : MonoBehaviour
                 countdownTime = 0;
                 PlatformEventHandler.current.GameStateChanged(GameState.STOPPED);
             }
-            textTime.SetText("Tijd: " + Math.Round(countdownTime).ToString());
+            textTime.SetText(Math.Round(countdownTime).ToString());
         }
 
     }
