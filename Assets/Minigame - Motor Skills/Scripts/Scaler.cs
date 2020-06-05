@@ -26,6 +26,7 @@ public class Scaler : MonoBehaviour
     /// </summary>
     void Start()
     {
+        Screen.orientation = ScreenOrientation.Portrait;
         OriginPosition = transform.position;
     }
 
