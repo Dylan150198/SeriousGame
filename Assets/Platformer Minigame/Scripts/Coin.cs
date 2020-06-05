@@ -20,7 +20,7 @@ public class Coin : MonoBehaviour
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
 		Destroy(gameObject);
-		EventHandler.current.CoinPickUp();
+		PlatformEventHandler.current.CoinPickUp();
 	}
 	// Update is called once per frame
 	void Update()

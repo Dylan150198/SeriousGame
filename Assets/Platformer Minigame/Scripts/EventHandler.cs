@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EventHandler : MonoBehaviour
+public class PlatformEventHandler : MonoBehaviour
 {
-	public static EventHandler current;
+	public static PlatformEventHandler current;
 
 
 

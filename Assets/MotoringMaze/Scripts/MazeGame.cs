@@ -10,12 +10,15 @@ public class MazeGame : MonoBehaviour
     {
         EventSystem.current.OnGameStateChanged += OnGameStateChanged;
         EventSystem.current.GameStateChanged(GameState.LOADED);
-        Debug.Log("dpi: " + Screen.dpi);
         Screen.orientation = ScreenOrientation.Portrait;
     }
 
     private void OnGameStateChanged(GameState gameState)
     {
         state = gameState;
+        if (gameState ==  GameState.STOPPED)
+        {
+            MinigameStateHandler.instance.LoadIntermission();
+        }
     }
 }
