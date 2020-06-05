@@ -4657,7 +4657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6ac4ed97f0a19a4d9551873870abeeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: ws://llocalhost:3000/socket.io/?EIO=4&transport=websocket
+  url: ws://localhost:3000/socket.io/?EIO=4&transport=websocket
   autoConnect: 1
   reconnectDelay: 5
   ackExpirationTime: 1800
