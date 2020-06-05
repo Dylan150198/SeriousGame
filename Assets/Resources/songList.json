@@ -1,0 +1,17 @@
+{
+  "songs": [
+    {
+      "songName": "Eminem - Rap God",
+      "difficulity": "Expert+",
+      "path": "RapGod",
+      "bpm": 148
+    },
+    {
+      "songName": "Camellia - PsyStyle!",
+      "difficulity": "Expert++",
+      "path": "PsyStyle",
+      "bpm": 160
+    }
+  ] 
+}
+ 

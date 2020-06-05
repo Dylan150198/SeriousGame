@@ -6,7 +6,9 @@ using TMPro;
 
 public class OnHit : MonoBehaviour
 {
-    private GameLogic gameLogic; 
+    private GameLogic gameLogic;
+    public GameObject effect;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,15 +16,12 @@ public class OnHit : MonoBehaviour
     }
 
     // Tell GameLogic that this target has been destroyed and the score needs to be incremented
-    void OnMouseDown()
+    void OnMouseOver()
     {
+        Instantiate(effect, transform.position, Quaternion.identity);
         gameLogic.incrementScore(1);
+        gameLogic.addToCombo(1);
         Destroy(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

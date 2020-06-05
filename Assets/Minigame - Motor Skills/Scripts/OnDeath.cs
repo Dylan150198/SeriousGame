@@ -9,8 +9,7 @@ public class OnDeath : MonoBehaviour
 
     private void OnDestroy()
     {
-        Instantiate(effect, transform.position, Quaternion.identity);
-        
+       //Instantiate(effect, transform.position, Quaternion.identity);
     }
  
 }
