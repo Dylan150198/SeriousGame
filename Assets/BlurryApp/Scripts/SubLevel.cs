@@ -12,5 +12,4 @@ public class SubLevel : MonoBehaviour
     public int correctBtnYPos;
     public int correctBtnWidth;
     public int correctBtnHeight;
-
 }
