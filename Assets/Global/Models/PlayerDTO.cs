@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assets.MainMenu.Scripts
+namespace Project.Global.Models
 {
 	[Serializable]
-	public class MinigamePlayer
+	public class PlayerDTO
 	{
 		public string username;
 		public string roomid;
 		public string playerid;
 
-		public MinigamePlayer()
+		public PlayerDTO()
 		{
 
 		}
 
-			public MinigamePlayer(string playerid, string roomid, string username)
+		public PlayerDTO(string playerid, string roomid, string username)
 		{
 			this.playerid = playerid;
 			this.roomid = roomid;

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace Assets.MainMenu.Scripts
+namespace Project.Global.Util
 {
     public static class JsonHelper
     {
@@ -14,6 +14,25 @@ namespace Assets.MainMenu.Scripts
             string newJson = "{ \"array\": " + json + "}";
             Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(newJson);
             return wrapper.array;
+        }
+        public static T[] FromJson<T>(string json)
+        {
+            Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(json);
+            return wrapper.array;
+        }
+
+        public static string ToJson<T>(T[] array)
+        {
+            Wrapper<T> wrapper = new Wrapper<T>();
+            wrapper.array = array;
+            return JsonUtility.ToJson(wrapper);
+        }
+
+        public static string ToJson<T>(T[] array, bool prettyPrint)
+        {
+            Wrapper<T> wrapper = new Wrapper<T>();
+            wrapper.array = array;
+            return JsonUtility.ToJson(wrapper, prettyPrint);
         }
 
         [Serializable]
