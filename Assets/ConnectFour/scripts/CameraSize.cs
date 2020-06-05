@@ -10,6 +10,7 @@ namespace ConnectFour
 		{
 			cam = GetComponent<Camera>();
 			cam.orthographic = true;
+			Screen.orientation = ScreenOrientation.Landscape;
 		}
 		
 		void LateUpdate()
