@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,8 +11,16 @@ public class PlayerMovement : MonoBehaviour
 	private float horizontalMove = 0f;
 	private bool jump = false;
 	public Joystick joystick;
-	
 
+	private void Start()
+	{
+		PlatformEventHandler.current.OnEnemyHit += OnEnemyHit;
+	}
+
+	private void OnEnemyHit()
+	{
+		animator.enabled = false;
+	}
 
 
 	// Update is called once per frame
@@ -44,6 +53,8 @@ public class PlayerMovement : MonoBehaviour
 
 	}
 
+
+
 	public void OnLanding() {
 		animator.SetBool("IsJumping", false);
 
@@ -52,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
+		controller.Move(horizontalMove * Time.fixedDeltaTime, jump);
 		jump = false;
 	}
 }
