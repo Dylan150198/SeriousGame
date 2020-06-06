@@ -9,6 +9,7 @@ public class GameCoordinator : MonoBehaviour
     public Level currentLevel;
     public SpriteRenderer spriteRenderer;
     public Button correctBtn;
+    public GameObject switchPanel;
     public int currentSubLevelIndex = 0;
 
     // Correct button location, based on current sprite
@@ -19,6 +20,7 @@ public class GameCoordinator : MonoBehaviour
 
     void Start()
     {
+        switchPanel.SetActive(false);
         correctBtn = GameObject.Find("SceneBolCorrectBtn").GetComponent<Button>();
 
         // Pick a random level
@@ -43,7 +45,7 @@ public class GameCoordinator : MonoBehaviour
             
             currentSubLevelIndex += 1;
             Debug.Log(currentSubLevelIndex);
-            LoadSubLevel();
+            StartCoroutine(SubLevelSwitch("Good job!"));
         }
         else
         {
@@ -54,6 +56,8 @@ public class GameCoordinator : MonoBehaviour
 
     public void LoadSubLevel()
     {
+        
+
         // Set the settings of the current level
         currentLevel.setCurrentSublevel(currentSubLevelIndex);
 
@@ -72,6 +76,26 @@ public class GameCoordinator : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    {
+
+    }
+
+    private IEnumerator SubLevelSwitch(string text)
+    {
+        switchPanel.SetActive(true);
+
+        // Fake loading time
+        yield return new WaitForSeconds(3);
+
+        switchPanel.SetActive(false);
+
+        LoadSubLevel();
+
+        yield return null;
+    }
+
+
+    public void StartMotoringMaze()
     {
 
     }
