@@ -9,8 +9,7 @@ public class GameCoordinator : MonoBehaviour
     public Level currentLevel;
     public SpriteRenderer spriteRenderer;
     public Button correctBtn;
-
-    public int currentSprite = 0;
+    public int currentSubLevelIndex = 0;
 
     // Correct button location, based on current sprite
     public int[] correctXPos;
@@ -20,12 +19,6 @@ public class GameCoordinator : MonoBehaviour
 
     void Start()
     {
-        //correctXPos = new int[] { 71, -196, 5, -60, 355 };
-        //correctYPos = new int[] { -730, -370, -667, -926, 267 };
-        //correctWidth = new int[] { 378, 208, 1070, 885, 301 };
-        //correctHeight = new int[] { 387, 209, 679, 107, 105 };
-
-        //spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         correctBtn = GameObject.Find("SceneBolCorrectBtn").GetComponent<Button>();
 
         // Pick a random level
@@ -39,30 +32,37 @@ public class GameCoordinator : MonoBehaviour
             }
         }
 
-        // Set the settings of the current level
-        currentLevel.setCurrentSublevel(0);
+        LoadSubLevel();
 
-        // Set the background sprite to the background of the firstlevel
-        spriteRenderer.sprite = currentLevel.currentSubLevel.background;
     }
 
-    public void ChangeToNextSprite()
+    public void ChangeToNextSubLevel()
     {
-        try
+        if(currentSubLevelIndex < currentLevel.subLevels.Length - 1)
         {
-            int newSprite = currentSprite + 1;
-            currentSprite = newSprite;
-            correctBtn.transform.localPosition = new Vector3(correctXPos[newSprite], correctYPos[newSprite]);
-            correctBtn.GetComponent<RectTransform>().sizeDelta = new Vector2(correctWidth[newSprite], correctHeight[newSprite]);
-            Debug.Log(correctBtn.transform.position);
-            Debug.Log(correctBtn.GetComponent<RectTransform>().sizeDelta);
+            
+            currentSubLevelIndex += 1;
+            Debug.Log(currentSubLevelIndex);
+            LoadSubLevel();
         }
-        catch (System.Exception e)
+        else
         {
-            Debug.LogException(e);
             Debug.Log("Game Over you won :)");
         }
         Debug.Log("Button Clicked");
+    }
+
+    public void LoadSubLevel()
+    {
+        // Set the settings of the current level
+        currentLevel.setCurrentSublevel(currentSubLevelIndex);
+
+        // Set the background sprite to the background of the firstlevel
+        spriteRenderer.sprite = currentLevel.currentSubLevel.background;
+
+        // Set the correct button location based on the current levels sublevel
+        correctBtn.transform.localPosition = new Vector3(currentLevel.currentSubLevel.correctBtnXPos, currentLevel.currentSubLevel.correctBtnYPos);
+        correctBtn.GetComponent<RectTransform>().sizeDelta = new Vector2(currentLevel.currentSubLevel.correctBtnWidth, currentLevel.currentSubLevel.correctBtnHeight);
     }
 
     public void WrongLocationMessage()
@@ -72,11 +72,6 @@ public class GameCoordinator : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-
-    }
-
-    void TaskOnClick()
     {
 
     }

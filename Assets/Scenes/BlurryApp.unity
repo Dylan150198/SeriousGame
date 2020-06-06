@@ -314,8 +314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fca8a2628d175a4eb222fe224c90cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: 176913763f6ec3446a8eee2ff33f0b0b, type: 3}
-  blurredBackground: {fileID: 0}
+  background: {fileID: 21300000, guid: a807e383bb4fea145aec3a8615f0591f, type: 3}
+  blurredBackground: {fileID: 21300000, guid: 9ab9697017fb3d14083e0a380f17eaf9, type: 3}
   correctBtnXPos: 5
   correctBtnYPos: -667
   correctBtnWidth: 1070
@@ -363,8 +363,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fca8a2628d175a4eb222fe224c90cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: 08b053e3a41d7324fb743f580ce69a78, type: 3}
-  blurredBackground: {fileID: 0}
+  background: {fileID: 21300000, guid: 07490f42faa437e4eb9916c49e8f98b6, type: 3}
+  blurredBackground: {fileID: 21300000, guid: cc8f53430cc74524da998e22c4e60e2c, type: 3}
   correctBtnXPos: 355
   correctBtnYPos: 267
   correctBtnWidth: 301
@@ -417,7 +417,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 815}
+  m_AnchoredPosition: {x: 1522, y: 815}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &711073412
@@ -557,6 +557,59 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &941332396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 941332398}
+  - component: {fileID: 941332397}
+  m_Layer: 0
+  m_Name: GameCoordinator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &941332397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941332396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e193f831747758499a9aa66278588fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levels: []
+  currentLevel: {fileID: 1444063229}
+  spriteRenderer: {fileID: 1874878545}
+  correctBtn: {fileID: 1189918715}
+  currentSubLevelIndex: 0
+  correctXPos: 
+  correctYPos: 
+  correctWidth: 
+  correctHeight: 
+--- !u!4 &941332398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941332396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.36987388, y: 1.3591245, z: 91.20215}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1444063230}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1109613842
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,7 +644,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 103, y: 746}
+  m_AnchoredPosition: {x: 1411, y: 746}
   m_SizeDelta: {x: 900, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1109613844
@@ -817,8 +870,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1874878544}
-        m_MethodName: ChangeToNextSprite
+      - m_Target: {fileID: 941332397}
+        m_MethodName: ChangeToNextSubLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -894,8 +947,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fca8a2628d175a4eb222fe224c90cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: 6c69a13f0bfca0247a38c4eac8dc1226, type: 3}
-  blurredBackground: {fileID: 0}
+  background: {fileID: 21300000, guid: acb6e3d6738ad8d41aa7e7a86decda2b, type: 3}
+  blurredBackground: {fileID: 21300000, guid: 47ad0f7b321e32e44ac2cb7fa8b31d62, type: 3}
   correctBtnXPos: -196
   correctBtnYPos: -370
   correctBtnWidth: 208
@@ -950,6 +1003,7 @@ MonoBehaviour:
   - {fileID: 390990762}
   - {fileID: 1475644409}
   - {fileID: 579673421}
+  currentSubLevel: {fileID: 0}
 --- !u!4 &1444063230
 Transform:
   m_ObjectHideFlags: 0
@@ -957,8 +1011,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1444063228}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.17321, y: 0.7472942, z: 91.292244}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.803336, y: -0.61183035, z: 0.09009552}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 233522054}
@@ -966,8 +1020,8 @@ Transform:
   - {fileID: 390990763}
   - {fileID: 1475644410}
   - {fileID: 579673422}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 941332398}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1475644408
 GameObject:
@@ -998,8 +1052,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fca8a2628d175a4eb222fe224c90cfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  background: {fileID: 21300000, guid: 75593f6f59663a74c9165d22a1193833, type: 3}
-  blurredBackground: {fileID: 0}
+  background: {fileID: 21300000, guid: 112ab25ad61c0aa4aaf10dea02713365, type: 3}
+  blurredBackground: {fileID: 21300000, guid: 5d54bcde149a10d4a9a6ab3794b4c05c, type: 3}
   correctBtnXPos: -60
   correctBtnYPos: -926
   correctBtnWidth: 885
@@ -1114,19 +1168,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f495ae66367ae849970ad2cd16729f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteArray:
-  - {fileID: 21300000, guid: 25229a67d7ed2624a90c7f69d2ea06cf, type: 3}
-  - {fileID: 21300000, guid: 6c69a13f0bfca0247a38c4eac8dc1226, type: 3}
-  - {fileID: 21300000, guid: 176913763f6ec3446a8eee2ff33f0b0b, type: 3}
-  - {fileID: 21300000, guid: 75593f6f59663a74c9165d22a1193833, type: 3}
-  - {fileID: 21300000, guid: 08b053e3a41d7324fb743f580ce69a78, type: 3}
-  spriteRenderer: {fileID: 0}
-  correctBtn: {fileID: 0}
-  currentSprite: 0
-  correctXPos: 
-  correctYPos: 
-  correctWidth: 
-  correctHeight: 
 --- !u!212 &1874878545
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1185,7 +1226,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1874878543}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 68, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 100.237404, y: 100.237404, z: 100.237404}
   m_Children: []
   m_Father: {fileID: 1147101376}
