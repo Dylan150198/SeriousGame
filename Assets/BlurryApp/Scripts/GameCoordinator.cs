@@ -42,10 +42,10 @@ public class GameCoordinator : MonoBehaviour
     {
         if(currentSubLevelIndex < currentLevel.subLevels.Length - 1)
         {
-            
+            spriteRenderer.sprite = currentLevel.currentSubLevel.background;
             currentSubLevelIndex += 1;
             Debug.Log(currentSubLevelIndex);
-            StartCoroutine(SubLevelSwitch("Good job!"));
+            StartCoroutine(SubLevelSwitch());
         }
         else
         {
@@ -55,33 +55,20 @@ public class GameCoordinator : MonoBehaviour
     }
 
     public void LoadSubLevel()
-    {
-        
-
+    {        
         // Set the settings of the current level
         currentLevel.setCurrentSublevel(currentSubLevelIndex);
 
         // Set the background sprite to the background of the firstlevel
-        spriteRenderer.sprite = currentLevel.currentSubLevel.background;
+        spriteRenderer.sprite = currentLevel.currentSubLevel.blurredBackground;
 
         // Set the correct button location based on the current levels sublevel
         correctBtn.transform.localPosition = new Vector3(currentLevel.currentSubLevel.correctBtnXPos, currentLevel.currentSubLevel.correctBtnYPos);
         correctBtn.GetComponent<RectTransform>().sizeDelta = new Vector2(currentLevel.currentSubLevel.correctBtnWidth, currentLevel.currentSubLevel.correctBtnHeight);
     }
 
-    public void WrongLocationMessage()
-    {
-        Debug.Log("Oops.. Je bent verdwaald!");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    private IEnumerator SubLevelSwitch(string text)
-    {
+    private IEnumerator SubLevelSwitch()
+    {       
         switchPanel.SetActive(true);
 
         // Fake loading time
@@ -95,8 +82,10 @@ public class GameCoordinator : MonoBehaviour
     }
 
 
-    public void StartMotoringMaze()
+    // Update is called once per frame
+    void Update()
     {
 
     }
+
 }
