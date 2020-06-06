@@ -79,5 +79,11 @@ namespace Project.Global
 				button.enabled = true;
 			}
 		}
+
+		private void OnDestroy()
+		{
+			WsClient.instance.OnGameCompleted -= OnGameCompleted;
+			WsClient.instance.OnScoreUpdated -= OnScoreUpdated;
+		}
 	}
 }
