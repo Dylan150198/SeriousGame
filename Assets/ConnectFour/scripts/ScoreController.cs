@@ -29,7 +29,7 @@ public class ScoreController : MonoBehaviour
     void Start()
     {
         HidePieceMaterialColors();
-        hintUsedText.text = "Hint used! (+" + penaltyScoreForHint + " penalty)";
+        hintUsedText.text = "Hint gebruikt! (+" + penaltyScoreForHint + " strafpunten)";
         DisplayHintUsedLabel(false);
         _gameActive = true;
     }
@@ -94,7 +94,7 @@ public class ScoreController : MonoBehaviour
 
     private void UpdateScore()
     {
-        scoreText.text = "Penalty Score: " + _score;
+        scoreText.text = "Strafpunten: " + _score;
     }
 
     private void DisplayHintUsedLabel(bool show)

@@ -8,37 +8,40 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 67d64f6022b9c8940ac018afed88a0da
+  - enabled: 1
     path: Assets/Scenes/BlurryApp.unity
     guid: 628a4b7f0d64a2a4f84eb331d3917eb0
   - enabled: 1
     path: Assets/Scenes/ConnectFour.unity
     guid: c5b11541fb04d1643ab7c2d6a0c31810
-  - enabled: 0
-    path: Assets/Scenes/MainMenu.unity
-    guid: 67d64f6022b9c8940ac018afed88a0da
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/ConnectFourLoadingScreen.unity
+    guid: c9dadef481b923b4d844c17f9242a005
+  - enabled: 1
     path: Assets/Scenes/MororingMaze.unity
     guid: 32ddfd30a344061408664b82c0e8ac04
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MotoringMazeMenu.unity
     guid: e13c51942bf108348bda7b1494fed951
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MotorSkillsScene_RunningState.unity
     guid: c63133cc7a8ad28428e622ee653f23a5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Platformer.unity
     guid: 4ddb8db10c622cf4f8706b41add69407
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MotorSkills_SongSelection.unity
     guid: 6ac275aa0f317274b8b5518caecd1c7a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MotorSkills_SongPlaying.unity
     guid: 854b9e7e5c3144a43b1f25b5252cf41f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/MotorSkills_SongEnded.unity
     guid: e6b1526eb8ccb474faa4e67444fc8da9
   m_configObjects: {}
