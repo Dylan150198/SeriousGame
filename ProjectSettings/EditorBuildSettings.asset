@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 67d64f6022b9c8940ac018afed88a0da
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BlurryApp.unity
     guid: 628a4b7f0d64a2a4f84eb331d3917eb0
   - enabled: 1

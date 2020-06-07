@@ -233,6 +233,9 @@ MonoBehaviour:
   songs:
   - {fileID: 8300000, guid: 0326c1f4f870fdb4e9d28d8d74b11323, type: 3}
   - {fileID: 8300000, guid: a332c6327229cd742bdf53454db5a19f, type: 3}
+  - {fileID: 8300000, guid: aeb57def715ab2a468d5e2f9264e687d, type: 3}
+  - {fileID: 8300000, guid: 2ff7c0a65a0553f4bb5154b615cc364d, type: 3}
+  - {fileID: 8300000, guid: 645d868077b708647a64f12cbd409f0c, type: 3}
   myAudio: {fileID: 1531543588}
 --- !u!1 &334577473
 GameObject:

@@ -61,7 +61,7 @@ public class SongList : MonoBehaviour
             var posButton = new Vector3(button.transform.position.x, button.transform.position.y - distanceBetweenButtons, button.transform.position.z);
 
             var buttonText = button.GetComponentInChildren<TextMeshProUGUI>();
-            buttonText.text = item.songName + " | " + item.difficulity + "| " + "Highscore: " + highscore;
+            buttonText.text = item.songName + " | " + item.difficulity + " | " + "Highscore: " + highscore;
 
             button.transform.position = posButton;
             //button.transform.position.y = distanceBetweenButtons;
@@ -92,6 +92,8 @@ public class SongList : MonoBehaviour
 
     private IEnumerator FadingLoadingScreen()
     {
+       
+
         animator.SetBool("Fade", true);
         yield return new WaitUntil(() => black.color.a == 1);
         // here I should store my last score before move to level two

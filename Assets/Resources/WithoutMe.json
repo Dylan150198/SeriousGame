@@ -1,0 +1,4253 @@
+{
+    "targets": [{
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 33.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 33.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 35.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 36.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 37.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 37.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 38.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 39.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 39.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 40.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 40.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 41.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 42.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 42.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 43.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 43.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 44.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 44.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 45.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 45.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 46.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 48.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 48.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 49.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 51.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 52.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 53.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 53.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 54.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 57.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 58.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 58.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 59.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 59.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 60.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 60.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 61.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 61.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 62.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 63.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 63.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 64.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 64.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 65.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 65.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 65.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 66.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 66.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 66.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 66.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 67.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 67.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 71.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 72.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 72.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 73.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 73.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 74.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 74.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 75.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 75.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 79.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 79.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 80.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 80.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 81.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 81.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 82.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 82.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 83.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 83.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 83.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 83.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 84.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 84.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 85.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 85.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 86.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 86.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 87.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 87.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 88.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 88.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 89.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 89.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 90.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 90.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 91.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 91.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 92.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 92.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 92.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 94.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 95.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 95.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 96.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 96.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 96.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 97.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 97.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 99.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 99.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 99.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 100.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 100.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 101.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 101.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 103.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 103.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 103.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 104.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 105.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 105.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 106.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 106.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 107.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 107.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 108.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 108.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 109.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 109.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 111.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 111.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 113.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 113.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 115.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 115.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 117.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 117.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 119.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 120.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 120.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 121.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 122.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 122.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 123.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 123.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 124.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 124.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 125.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 125.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 126.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 126.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 127.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 127.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 129.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 129.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 130.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 131.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 131.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 132.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 133.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 133.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 134.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 135.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 135.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 136.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 137.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 137.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 138.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 139.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 139.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 140.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 141.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 141.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 142.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 143.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 143.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 144.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 145.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 145.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 146.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 147.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 147.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 148.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 148.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 149.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 149.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 150.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 150.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 151.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 152.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 153.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 153.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 154.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 154.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 155.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 155.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 156.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 156.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 157.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 157.706
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 157.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 158.206
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 158.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 158.706
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 158.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 159.206
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 159.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 159.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 159.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 159.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 160.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 160.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 160.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 160.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 161.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 161.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 163.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 163.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 164.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 164.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 164.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 164.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 166.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 166.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 167.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 168.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 168.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 169.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 169.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 170.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 170.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 171.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 172.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 172.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 172.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 172.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 173.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 173.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 174.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 174.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 175.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 176.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 176.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 177.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 177.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 178.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 178.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 179.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 179.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 180.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 180.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 180.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 182.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 182.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 183.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 183.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 184.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 184.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 185.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 185.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 186.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 186.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 187.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 187.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 188.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 188.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 188.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 188.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 189.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 189.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 190.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 190.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 191.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 191.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 201.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 201.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 203.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 204.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 205.206
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 205.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 205.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 206.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 209.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 209.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 210.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 210.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 210.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 211.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 211.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 211.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 212.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 212.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 212.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 213.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 213.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 213.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 213.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 214.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 214.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 216.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 216.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 217.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 217.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 219.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 219.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 220.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 221.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 221.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 222.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 225.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 226.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 226.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 227.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 227.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 228.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 228.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 228.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 229.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 229.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 229.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 229.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 230.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 230.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 232.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 232.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 233.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 233.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 233.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 234.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 234.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 234.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 234.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 235.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 235.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 239.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 240.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 240.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 241.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 241.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 242.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 242.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 243.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 243.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 247.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 247.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 248.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 248.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 249.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 249.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 250.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 250.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 251.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 251.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 251.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 251.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 252.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 252.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 253.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 253.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 254.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 254.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 255.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 255.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 256.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 256.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 257.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 257.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 258.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 258.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 259.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 259.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 260.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 260.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 260.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 262.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 263.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 263.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 264.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 264.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 264.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 265.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 265.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 267.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 267.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 267.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 268.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 268.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 269.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 269.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 271.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 271.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 271.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 272.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 273.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 273.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 274.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 274.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 275.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 275.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 276.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 276.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 277.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 277.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 279.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 279.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 281.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 281.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 283.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 283.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 285.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 285.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 287.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 288.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 288.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 289.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 290.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 290.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 291.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 291.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 292.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 292.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 293.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 293.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 294.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 294.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 295.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 295.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 297.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 297.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 298.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 299.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 299.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 300.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 301.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 301.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 302.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 303.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 303.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 304.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 305.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 305.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 306.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 306.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 307.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 307.706
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 307.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 308.206
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 308.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 308.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 308.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 309.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 309.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 309.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 309.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 311.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 311.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 312.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 312.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 313.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 313.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 314.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 314.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 315.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 315.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 316.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 316.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 317.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 317.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 319.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 319.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 319.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 319.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 320.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 320.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 320.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 320.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 321.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 321.706
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 321.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 322.206
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 322.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 322.706
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 322.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 323.206
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 323.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 323.706
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 323.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 324.206
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 324.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 324.706
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 324.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 325.206
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 325.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 325.706
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 325.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 326.206
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 326.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 326.706
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 326.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 327.206
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 327.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 327.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 329.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 329.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 331.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 332.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 332.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 332.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 332.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 334.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 334.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 335.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 336.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 337.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 338.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 339.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 340.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 340.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 341.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 342.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 343.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 343.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 344.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 344.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 345.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 345.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 347.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 347.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 348.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 348.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 350.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 350.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 351.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 351.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 352.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 352.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 353.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 353.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 354.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 354.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 355.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 355.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 356.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 356.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 356.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 356.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 357.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 357.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 358.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 358.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 359.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 359.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 361.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 361.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 362.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 362.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 363.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 364.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 365.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 365.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 366.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 369.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 369.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 370.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 372.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 373.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 373.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 374.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 374.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 375.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 375.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 376.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 376.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 376.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 382.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 383.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 383.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 384.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 384.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 385.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 391.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 391.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 391.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 391.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 392.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 392.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 392.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 392.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 393.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 393.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 395.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 395.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 396.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 396.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 397.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 397.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 399.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 399.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 400.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 401.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 402.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 402.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 403.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 403.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 404.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 405.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 405.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 406.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 406.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 407.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 407.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 408.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 408.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 409.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 409.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 410.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 410.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 411.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 411.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 412.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 412.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 413.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 413.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 414.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 415.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 415.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 416.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 416.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 417.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 417.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 418.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 418.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 419.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 419.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 420.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 420.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 421.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 421.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 422.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 422.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 423.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 423.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 424.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 424.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 425.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 426.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 427.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 428.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 429.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 430.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 431.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 431.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 432.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 433.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 434.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 435.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 435.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 436.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 436.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 437.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 437.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 438.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 438.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 439.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 439.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 440.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 440.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 441.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 441.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 441.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 441.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 442.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 442.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 443.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 443.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 444.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 444.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 445.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 445.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 446.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 446.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 447.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 447.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 448.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 448.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 449.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 449.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 450.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 450.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 451.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 451.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 452.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 452.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 452.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 452.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 453.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 453.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 453.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 453.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 454.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 454.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 454.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 454.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 455.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 455.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 455.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 455.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 456.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 456.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 456.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 456.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 457.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 457.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 457.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 458.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 458.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 459.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 459.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 460.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 460.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 460.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 460.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 462.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 462.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 463.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 463.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 464.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 465.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 465.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 466.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 467.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 467.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 468.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 468.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 468.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 468.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 469.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 470.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 471.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 471.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 472.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 472.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 473.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 473.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 474.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 474.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 475.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 475.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 476.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 476.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 476.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 476.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 478.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 478.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 479.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 479.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 481.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 481.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 482.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 482.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 483.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 483.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 484.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 485.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 486.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 486.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 487.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 487.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 489.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 489.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 489.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 489.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 490.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 490.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 490.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 490.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 491.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 491.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 491.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 491.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 492.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 492.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 492.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 492.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 493.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 493.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 493.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 493.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 494.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 494.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 494.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 494.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 495.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 495.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 495.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 495.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 496.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 496.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 496.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 496.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 497.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 497.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 497.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 497.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 498.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 498.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 498.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 498.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 499.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 499.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 499.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 499.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 500.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 500.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 500.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 500.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 501.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 501.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 501.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 501.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 502.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 502.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 502.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 502.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 503.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 503.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 503.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 503.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 505.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 505.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 506.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 506.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 507.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 507.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 508.956
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 509.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 510.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 510.956
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Down_2",
+      "timeInMs": 511.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Down_3",
+      "timeInMs": 512.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 513.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Down_1",
+      "timeInMs": 513.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 514.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_2",
+      "timeInMs": 514.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 515.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_3",
+      "timeInMs": 515.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 516.456
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 516.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 516.956
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Up_4",
+      "timeInMs": 516.956
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 518.456
+    },
+    {
+      "spawner": "C Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 518.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 519.456
+    },
+    {
+      "spawner": "L1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 519.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 520.456
+    },
+    {
+      "spawner": "L2 Spawner",
+      "spawnPosition": "Spawn_Up_1",
+      "timeInMs": 520.956
+    },
+    {
+      "spawner": "R2 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 521.456
+    },
+    {
+      "spawner": "R1 Spawner",
+      "spawnPosition": "Spawn_Center",
+      "timeInMs": 521.456
+    }
+  ]
+}

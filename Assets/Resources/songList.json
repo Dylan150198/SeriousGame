@@ -1,6 +1,24 @@
 {
   "songs": [
     {
+      "songName": "Alan Walker - Spectre",
+      "difficulity": "Normal",
+      "path": "SpectreConverted",
+      "bpm": 128
+    },
+    {
+      "songName": "WALK THE MOON - Shut up and Dance",
+      "difficulity": "Hard",
+      "path": "SUADConverted",
+      "bpm": 128
+    },
+    {
+      "songName": "Halsey - Without Me (ILLENIUM Remix)",
+      "difficulity": "Expert",
+      "path": "WithoutMe",
+      "bpm": 136
+    },
+    {
       "songName": "Eminem - Rap God",
       "difficulity": "Expert+",
       "path": "RapGod",
