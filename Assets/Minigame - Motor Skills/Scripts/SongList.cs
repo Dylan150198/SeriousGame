@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Global;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -23,6 +24,20 @@ public class SongList : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GameObject menuButton = GameObject.Find("BackToMenuButton");
+        Button menuButtonComponent = menuButton.GetComponent<Button>();
+        if (MinigameStateHandler.instance.isFreePlay)
+        {
+            menuButtonComponent.interactable = true;
+        }
+        else
+        {
+            menuButtonComponent.interactable = false;
+        }
+
+        menuButtonComponent.onClick.AddListener(() => MenuButtonClicked());
+
+
         TextAsset file = Resources.Load("songList") as TextAsset;
         string content = file.ToString();
         songRoot = JsonUtility.FromJson<SongRoot>(content);
@@ -62,6 +77,12 @@ public class SongList : MonoBehaviour
         }
     }
 
+
+    void MenuButtonClicked()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     void ButtonClicked(int buttonNo)
     {
         // Load a new scene with this song selected
@@ -75,6 +96,6 @@ public class SongList : MonoBehaviour
         yield return new WaitUntil(() => black.color.a == 1);
         // here I should store my last score before move to level two
         // PlayerPrefs.SetInt("player_score", score);
-        SceneManager.LoadScene("MotorSkills_SongPlaying", LoadSceneMode.Single);
+        SceneManager.LoadScene("MotorSkills_SongPlaying");
     }
 }

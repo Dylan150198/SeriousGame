@@ -4,42 +4,10 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class GameScore : MonoBehaviour
+public static class GameScore
 {
-    public TextMeshProUGUI tmpScore;
-    public TextMeshProUGUI tmpBumps;
-    public TextMeshProUGUI tmpTimeLeft;
-
-    float currentTime = 0f;
-    float startingTime = 60f;
-
-    private int playerHits = 0;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        EventSystem.current.OnPlayerHit += OnPlayerHit;
-        currentTime = startingTime;
-    }
-
-    private void OnPlayerHit()
-    {
-        playerHits++;
-        tmpBumps.SetText(playerHits.ToString());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (MazeGame.state == GameState.STARTED)
-        {
-            currentTime -= 1 * Time.deltaTime;
-            if (currentTime <= 0)
-            {
-                currentTime = 0;
-            }
-
-            tmpTimeLeft.SetText(Math.Round(currentTime, 1).ToString());
-        }
-    }
+	public static int CalculateScore(float timeLeft, int faults)
+	{
+		return Convert.ToInt32(((timeLeft / 50) / (1 * faults)) * 1000);
+	}
 }

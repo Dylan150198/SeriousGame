@@ -10,7 +10,7 @@ public class ScoreManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		EventHandler.current.OnCoinPickUp += OnCoinPickUp;
+		PlatformEventHandler.current.OnCoinPickUp += OnCoinPickUp;
     }
 
 	private void OnCoinPickUp()
@@ -20,7 +20,7 @@ public class ScoreManager : MonoBehaviour
 
 	private void OnDestroy()
 	{
-		EventHandler.current.OnCoinPickUp -= OnCoinPickUp;
+		PlatformEventHandler.current.OnCoinPickUp -= OnCoinPickUp;
 	}
 
 	// Update is called once per frame

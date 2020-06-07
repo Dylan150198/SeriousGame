@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Global;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -94,16 +95,45 @@ public class OnMusicSpawner : MonoBehaviour
     {
         if (!songMusicPlayer.myAudio.isPlaying)
         {
-            StartCoroutine(FadingLoadingScreen(3));
+            EndGame();
         }
     }
 
-    private IEnumerator FadingLoadingScreen(float time)
+    private void EndGame()
+    {
+        if (MinigameStateHandler.instance.isFreePlay)
+        {
+            StartCoroutine(FreePlayEndScene(1));
+        }
+        else
+        {
+            LeaderboardEndScene();
+        }
+    }
+
+    private void LeaderboardEndScene()
+    {
+        PlayerPrefs.SetString("CurrentSong", songName);
+        PlayerPrefs.SetInt("CurrentScore" + songName, score.score);
+        WsClient.instance.SendScore(MinigameState.MOTORSKILLS, score.score);
+        if (PlayerPrefs.HasKey("CurrentHighScore" + songName))
+        {
+            int highscore = PlayerPrefs.GetInt("CurrentHighScore" + songName);
+            if (score.score > highscore)
+            {
+                PlayerPrefs.SetInt("CurrentHighScore" + songName, score.score);
+            }
+        }
+ 
+        MinigameStateHandler.instance.LoadIntermission();
+    }
+
+    private IEnumerator FreePlayEndScene(float time)
     {
         animator.SetBool("Fade", true);
         yield return new WaitForSeconds(time);
         PlayerPrefs.SetInt("CurrentScore" + songName, score.score);
         PlayerPrefs.SetString("CurrentSong", songName);
-        SceneManager.LoadScene("MotorSkills_SongEnded", LoadSceneMode.Single);
+        SceneManager.LoadScene("MotorSkills_SongEnded");
     }
 }

@@ -296,6 +296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene: ConnectFour
   loadingText: {fileID: 364046077}
+  instructions: {fileID: 2066688406}
 --- !u!4 &400673289
 Transform:
   m_ObjectHideFlags: 0

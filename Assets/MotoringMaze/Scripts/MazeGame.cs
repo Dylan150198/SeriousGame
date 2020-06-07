@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Global;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,12 +11,15 @@ public class MazeGame : MonoBehaviour
     {
         EventSystem.current.OnGameStateChanged += OnGameStateChanged;
         EventSystem.current.GameStateChanged(GameState.LOADED);
-        Debug.Log("dpi: " + Screen.dpi);
         Screen.orientation = ScreenOrientation.Portrait;
     }
 
     private void OnGameStateChanged(GameState gameState)
     {
         state = gameState;
+        if (gameState ==  GameState.STOPPED)
+        {
+            MinigameStateHandler.instance.LoadIntermission();
+        }
     }
 }

@@ -7,6 +7,6 @@ public class StartButton : MonoBehaviour
 {
     public void LoadGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("MororingMaze");
     }
 }

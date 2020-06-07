@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MotorSkills_SongEnded.unity
     guid: e6b1526eb8ccb474faa4e67444fc8da9
+  - enabled: 1
+    path: Assets/Scenes/IntermissionMenu.unity
+    guid: 3acfc11e1d6b81043994a83e69964ef1
   m_configObjects: {}
