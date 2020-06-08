@@ -1583,7 +1583,7 @@ MonoBehaviour:
   switchPanel: {fileID: 556324872}
   finishPanel: {fileID: 875056236}
   losePanel: {fileID: 41626347}
-  introPanel: {fileID: 0}
+  introPanel: {fileID: 562270419}
 --- !u!4 &941332398
 Transform:
   m_ObjectHideFlags: 0
