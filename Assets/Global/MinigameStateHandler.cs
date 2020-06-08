@@ -70,9 +70,9 @@ namespace Project.Global
 	{
 		
 		MAZE = 1,
-		MOTORSKILLS = 2,
+		PLATFORM = 2,
 		CONNECTFOUR = 3,
-		PLATFORM = 4,
+		MOTORSKILLS = 4,
 		BLURRY = 5,
 	}
 }

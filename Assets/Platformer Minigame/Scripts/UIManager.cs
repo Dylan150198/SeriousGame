@@ -18,6 +18,8 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI textChest;
     public TextMeshProUGUI textTimeUp;
 
+    private bool hasEnded = false;
+
     float countdownTime = 0f;
     float countDownStart = 60f;
 
@@ -29,32 +31,23 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         countdownTime = countDownStart;
-        PlatformEventHandler.current.OnGameStateChanged += OnGameStateChanged;
         PlatformEventHandler.current.OnDeadScenePlayed += OnDeadScenePlayed;
-        PlatformEventHandler.current.OnTimeUp += OnTimeUp;
     }
 
 	private void OnDeadScenePlayed()
-	{
-        textDied.text = "Je bent dood";
-        Invoke("LoadLeaderbord", 2);
-    }
-
-    private void OnTimeUp()
-    {
-        textTimeUp.text = "Tijd is om!";
-        Invoke("LoadLeaderbord", 2);
+	{ 
+        if (!hasEnded)
+        {
+            hasEnded = true;
+            textDied.text = "Je bent dood";
+            Invoke("LoadLeaderbord", 2);
+        }
     }
 
     void LoadLeaderbord()
     {
         WsClient.instance.SendScore(MinigameState.PLATFORM, score);
         MinigameStateHandler.instance.LoadIntermission();
-    }
-
-    private void OnGameStateChanged(GameState state)
-	{
-        
     }
 
     public void OnStartClicked()
@@ -79,14 +72,19 @@ public class UIManager : MonoBehaviour
             textChest.text = chestCount.ToString() + "/" + chestAmount.ToString();
         }
 
-        if (PlatformManager.currentState == GameState.STARTED)
+        if (PlatformManager.currentState == GameState.STARTED && countdownTime >= 1)
         {
             countdownTime -= 1 * Time.deltaTime;
             if (countdownTime <= 1)
             {
                 countdownTime = 0;
-                PlatformEventHandler.current.TimeUp();
                 PlatformEventHandler.current.GameStateChanged(GameState.STOPPED);
+                if (!hasEnded)
+                {
+                    hasEnded = true;
+                    textTimeUp.text = "Tijd is om!";
+                    Invoke("LoadLeaderbord", 2);
+                }
             }
             textTime.SetText(Math.Round(countdownTime).ToString());
         }
