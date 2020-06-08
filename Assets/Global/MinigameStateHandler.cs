@@ -34,8 +34,17 @@ namespace Project.Global
 
 		public void LoadIntermission()
 		{
-			previousState = currentState;
-			SceneManager.LoadScene("IntermissionMenu");
+			if ((int)currentState == 5 || isFreePlay)
+			{
+				currentState = (MinigameState) 1;
+				previousState = (MinigameState)1;
+				SceneManager.LoadScene("MainMenu");
+			}
+			else
+			{
+				previousState = currentState;
+				SceneManager.LoadScene("IntermissionMenu");
+			}
 		}
 
 		public void OnNextGameClicked()
