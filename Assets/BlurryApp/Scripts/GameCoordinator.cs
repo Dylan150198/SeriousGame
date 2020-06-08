@@ -1,6 +1,7 @@
 ﻿using Project.Global;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Policy;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,7 @@ public class GameCoordinator : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public Button correctBtn;
     public Text scoreText;
+    public Text introText;
     public int currentSubLevelIndex = 0;
 
     // Panels
@@ -19,15 +21,9 @@ public class GameCoordinator : MonoBehaviour
     public GameObject losePanel;
     public GameObject introPanel;
 
-    // Correct button location, based on current sprite
-    public int[] correctXPos;
-    public int[] correctYPos;
-    public int[] correctWidth;
-    public int[] correctHeight;
-
     void Start()
     {
-        StartCoroutine(PlayIntro());
+
         switchPanel.SetActive(false);
         finishPanel.SetActive(false);
         losePanel.SetActive(false);
@@ -45,6 +41,9 @@ public class GameCoordinator : MonoBehaviour
         }
 
         LoadSubLevel();
+
+        introText.text = currentLevel.objectiveText;
+        StartCoroutine(PlayIntro());
 
     }
 
