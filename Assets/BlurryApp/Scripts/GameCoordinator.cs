@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Project.Global;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -59,13 +60,21 @@ public class GameCoordinator : MonoBehaviour
             finishPanel.SetActive(true);
             spriteRenderer.sprite = currentLevel.currentSubLevel.background;
             Debug.Log("Game Over you won :)");
+            int result;
+            int.TryParse(scoreText.text, out result);
+            WsClient.instance.SendScore(MinigameState.BLURRY, result);
+            MinigameStateHandler.instance.LoadIntermission();
         }
     }
 
     public void GameLost()
     {
+        int result;
+        int.TryParse(scoreText.text, out result);
         losePanel.SetActive(true);
         Debug.Log("Game Over you lost :(");
+        WsClient.instance.SendScore(MinigameState.BLURRY, result);
+        MinigameStateHandler.instance.LoadIntermission();
     }
 
     public void LoadSubLevel()
