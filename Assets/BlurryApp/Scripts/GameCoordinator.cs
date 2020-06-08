@@ -60,7 +60,7 @@ public class GameCoordinator : MonoBehaviour
             finishPanel.SetActive(true);
             spriteRenderer.sprite = currentLevel.currentSubLevel.background;
             Debug.Log("Game Over you won :)");
-            WsClient.instance.SendScore(MinigameState.BLURRY, currentSubLevelIndex);
+            WsClient.instance.SendScore(MinigameState.BLURRY, currentSubLevelIndex + 1);
             MinigameStateHandler.instance.LoadIntermission();
         }
     }
@@ -71,7 +71,7 @@ public class GameCoordinator : MonoBehaviour
         int.TryParse(scoreText.text, out result);
         losePanel.SetActive(true);
         Debug.Log("Game Over you lost :(");
-        WsClient.instance.SendScore(MinigameState.BLURRY, currentSubLevelIndex);
+        WsClient.instance.SendScore(MinigameState.BLURRY, currentSubLevelIndex + 1);
         MinigameStateHandler.instance.LoadIntermission();
     }
 
