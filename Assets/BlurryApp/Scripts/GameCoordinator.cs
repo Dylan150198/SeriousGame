@@ -11,6 +11,7 @@ public class GameCoordinator : MonoBehaviour
     public Button correctBtn;
     public GameObject switchPanel;
     public GameObject finishPanel;
+    public GameObject losePanel;
     public Text scoreText;
     public int currentSubLevelIndex = 0;
 
@@ -24,6 +25,7 @@ public class GameCoordinator : MonoBehaviour
     {
         switchPanel.SetActive(false);
         finishPanel.SetActive(false);
+        losePanel.SetActive(false);
         correctBtn = GameObject.Find("SceneBolCorrectBtn").GetComponent<Button>();
 
         // Pick a random level
@@ -58,6 +60,12 @@ public class GameCoordinator : MonoBehaviour
             spriteRenderer.sprite = currentLevel.currentSubLevel.background;
             Debug.Log("Game Over you won :)");
         }
+    }
+
+    public void GameLost()
+    {
+        losePanel.SetActive(true);
+        Debug.Log("Game Over you lost :(");
     }
 
     public void LoadSubLevel()
