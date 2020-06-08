@@ -58,7 +58,7 @@ namespace Project.Global
 					title.text = "Peeping Platformer";
 					break;
 				case MinigameState.CONNECTFOUR:
-					title.text = "Can't four";
+					title.text = "Connect four";
 					break;
 				case MinigameState.BLURRY:
 					title.text = "Blurry vision";
@@ -78,6 +78,12 @@ namespace Project.Global
 			{
 				button.enabled = true;
 			}
+		}
+
+		private void OnDestroy()
+		{
+			WsClient.instance.OnGameCompleted -= OnGameCompleted;
+			WsClient.instance.OnScoreUpdated -= OnScoreUpdated;
 		}
 	}
 }

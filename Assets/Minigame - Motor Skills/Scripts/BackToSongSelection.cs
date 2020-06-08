@@ -19,6 +19,6 @@ public class BackToSongSelection : MonoBehaviour
     {
         animator.SetBool("Fade", true);
         yield return new WaitUntil(() => black.color.a == 1);
-        SceneManager.LoadScene("MotorSkills_SongSelection", LoadSceneMode.Single);
+        SceneManager.LoadScene("MotorSkills_SongSelection");
     }
 }

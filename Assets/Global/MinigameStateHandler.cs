@@ -47,7 +47,7 @@ namespace Project.Global
 					SceneManager.LoadScene("Platformer");
 					break;
 				case MinigameState.CONNECTFOUR:
-					SceneManager.LoadScene("ConnectFour");
+					SceneManager.LoadScene("ConnectFourLoadingScreen");
 					break;
 				case MinigameState.MAZE:
 					SceneManager.LoadScene("MotoringMazeMenu");
@@ -70,9 +70,9 @@ namespace Project.Global
 	{
 		
 		MAZE = 1,
-		PLATFORM = 2,
+		MOTORSKILLS = 2,
 		CONNECTFOUR = 3,
-		BLURRY = 4,
-		MOTORSKILLS = 5,
+		PLATFORM = 4,
+		BLURRY = 5,
 	}
 }

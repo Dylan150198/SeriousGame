@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Project.Global;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -16,6 +17,9 @@ public class SongEnded : MonoBehaviour
         string songName = PlayerPrefs.GetString("CurrentSong");
         // Get the players score
         int score = PlayerPrefs.GetInt("CurrentScore" + songName);
+
+        // Upload my score for the leaderbord
+        WsClient.instance.SendScore(MinigameState.MOTORSKILLS, score);
 
         // Have I scored this before?
         if(PlayerPrefs.HasKey("CurrentHighScore" + songName))

@@ -105,7 +105,7 @@ public class MainMenu : MonoBehaviour
 				SceneManager.LoadScene("MotoringMazeMenu");
 				break;
 			case MinigameState.CONNECTFOUR:
-				SceneManager.LoadScene("ConnectFour");
+				SceneManager.LoadScene("ConnectFourLoadingScreen");
 				break;
 			case MinigameState.PLATFORM:
 				SceneManager.LoadScene("Platformer");

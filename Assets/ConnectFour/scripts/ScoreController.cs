@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Project.Global;
 using UnityEngine;
 using TMPro;
 
@@ -29,7 +30,7 @@ public class ScoreController : MonoBehaviour
     void Start()
     {
         HidePieceMaterialColors();
-        hintUsedText.text = "Hint used! (+" + penaltyScoreForHint + " penalty)";
+        hintUsedText.text = "Hint gebruikt! (+" + penaltyScoreForHint + " strafpunten)";
         DisplayHintUsedLabel(false);
         _gameActive = true;
     }
@@ -88,13 +89,17 @@ public class ScoreController : MonoBehaviour
     public void StopScore()
     {
         _gameActive = false;
-        
-        //TODO: submit score to highscores.
+
+        if (!MinigameStateHandler.instance.isFreePlay)
+        {
+            WsClient.instance.SendScore(MinigameState.CONNECTFOUR, _score);
+            MinigameStateHandler.instance.LoadIntermission();
+        }
     }
 
     private void UpdateScore()
     {
-        scoreText.text = "Penalty Score: " + _score;
+        scoreText.text = "Strafpunten: " + _score;
     }
 
     private void DisplayHintUsedLabel(bool show)
