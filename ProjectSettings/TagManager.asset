@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Piece
+  - bounds
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - Obstacle
   - Enemy
   - Camera
-  - 
-  - 
+  - Coin
+  - Environment
   - 
   - 
   - 

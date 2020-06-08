@@ -68,9 +68,10 @@ namespace Project.Global
 
 	public enum MinigameState
 	{
+		
 		MAZE = 1,
-		CONNECTFOUR = 2,
-		PLATFORM = 3,
+		PLATFORM = 2,
+		CONNECTFOUR = 3,
 		BLURRY = 4,
 		MOTORSKILLS = 5,
 	}

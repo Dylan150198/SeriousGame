@@ -14,15 +14,21 @@ public class PlatformEventHandler : MonoBehaviour
 		current = this;
 
 	}
-
+	public event Action OnChestPickUp;
 	public event Action OnCoinPickUp;
 	public event Action OnEnemyHit;
 	public event Action<GameState> OnGameStateChanged;
 	public event Action OnDeadScenePlayed;
+	public event Action OnTimeUp;
 
 	public void DeadScenePlayed()
 	{
 		OnDeadScenePlayed?.Invoke();
+	}
+
+	public void TimeUp()
+	{
+		OnTimeUp?.Invoke();
 	}
 
 	public void GameStateChanged(GameState state)
@@ -32,6 +38,10 @@ public class PlatformEventHandler : MonoBehaviour
 
 	public void CoinPickUp() {
 		OnCoinPickUp?.Invoke();
+	}
+
+	public void ChestPickUp() {
+		OnChestPickUp.Invoke();
 	}
 
 	public void EnemyHit()

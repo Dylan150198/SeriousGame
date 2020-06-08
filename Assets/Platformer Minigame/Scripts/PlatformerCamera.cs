@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlatformerCamera : MonoBehaviour
 {
 
-    void Awake()
+    void Start()
     {
         Screen.orientation = ScreenOrientation.Landscape;
     }

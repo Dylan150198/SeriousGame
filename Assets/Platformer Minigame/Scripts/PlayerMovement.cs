@@ -14,10 +14,11 @@ public class PlayerMovement : MonoBehaviour
 
 	private void Start()
 	{
-		PlatformEventHandler.current.OnEnemyHit += OnEnemyHit;
+		PlatformEventHandler.current.OnEnemyHit += DisableAnimator;
+		PlatformEventHandler.current.OnTimeUp += DisableAnimator;
 	}
 
-	private void OnEnemyHit()
+	private void DisableAnimator()
 	{
 		animator.enabled = false;
 	}

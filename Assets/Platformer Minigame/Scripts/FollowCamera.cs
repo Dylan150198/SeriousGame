@@ -1,22 +1,28 @@
-﻿using System.Collections;
+﻿using Cinemachine;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class FollowCamera : MonoBehaviour
 {
 
-	public Cinemachine.CinemachineVirtualCamera camera;
+	private Cinemachine.CinemachineVirtualCamera camera;
 	GameObject CameraBounds;
+	private Vector2 resolution;
 
 	// Start is called before the first frame update
 	void Start()
     {
-		CameraBounds = new GameObject();
+		camera = GetComponent<CinemachineVirtualCamera>();
+		resolution = new Vector2(Screen.width, Screen.height);
 		GenerateCollidersAcrossScreen();
+		Screen.orientation = ScreenOrientation.Landscape;
+		
 	}
 	void GenerateCollidersAcrossScreen()
 	{
-		
+		CameraBounds = new GameObject();
+		CameraBounds.transform.parent = gameObject.transform;
 		Vector2 lDCorner = Camera.main.ViewportToWorldPoint(new Vector3(0, 0f, camera.m_Lens.NearClipPlane));
 		Vector2 rUCorner = Camera.main.ViewportToWorldPoint(new Vector3(1f, 1f, camera.m_Lens.NearClipPlane));
 		Vector2[] colliderpoints;
@@ -50,8 +56,13 @@ public class FollowCamera : MonoBehaviour
 		rightEdge.points = colliderpoints;
 	}
 
-	private void Update()
+	void Update()
 	{
-		CameraBounds.transform.position = Camera.main.transform.position + new Vector3(5.55f, 1.15f, 0);
+		if (resolution.x != Screen.width || resolution.y != Screen.height)
+		{
+			Destroy(CameraBounds);
+			GenerateCollidersAcrossScreen();
+			resolution = new Vector2(Screen.width, Screen.height);
+		}
 	}
 }
