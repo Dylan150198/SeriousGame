@@ -10,11 +10,14 @@ public class GameCoordinator : MonoBehaviour
     public Level currentLevel;
     public SpriteRenderer spriteRenderer;
     public Button correctBtn;
+    public Text scoreText;
+    public int currentSubLevelIndex = 0;
+
+    // Panels
     public GameObject switchPanel;
     public GameObject finishPanel;
     public GameObject losePanel;
-    public Text scoreText;
-    public int currentSubLevelIndex = 0;
+    public GameObject introPanel;
 
     // Correct button location, based on current sprite
     public int[] correctXPos;
@@ -24,6 +27,7 @@ public class GameCoordinator : MonoBehaviour
 
     void Start()
     {
+        StartCoroutine(PlayIntro());
         switchPanel.SetActive(false);
         finishPanel.SetActive(false);
         losePanel.SetActive(false);
@@ -98,6 +102,18 @@ public class GameCoordinator : MonoBehaviour
         switchPanel.SetActive(false);
 
         LoadSubLevel();
+
+        yield return null;
+    }
+
+    private IEnumerator PlayIntro()
+    {
+        introPanel.SetActive(true);
+
+        // Fake loading time
+        yield return new WaitForSeconds(3);
+
+        introPanel.SetActive(false);
 
         yield return null;
     }
