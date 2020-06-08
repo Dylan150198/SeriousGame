@@ -804,7 +804,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 941332397}
-        m_MethodName: ChangeToNextSubLevel
+        m_MethodName: GameLost
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1268,6 +1268,7 @@ MonoBehaviour:
   correctBtn: {fileID: 1189918715}
   switchPanel: {fileID: 556324872}
   finishPanel: {fileID: 875056236}
+  losePanel: {fileID: 41626347}
   scoreText: {fileID: 1153130028}
   currentSubLevelIndex: 0
   correctXPos: 
