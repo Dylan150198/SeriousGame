@@ -177,7 +177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Good Job!
+  m_text: Buy a samsung SD card
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 6
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -246,12 +246,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 39889741}
-    characterCount: 9
+    characterCount: 21
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 4
+    wordCount: 5
     linkCount: 0
-    lineCount: 1
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -1423,11 +1423,12 @@ MonoBehaviour:
   currentLevel: {fileID: 1444063229}
   spriteRenderer: {fileID: 1874878545}
   correctBtn: {fileID: 1189918715}
+  scoreText: {fileID: 1153130028}
+  currentSubLevelIndex: 0
   switchPanel: {fileID: 556324872}
   finishPanel: {fileID: 875056236}
   losePanel: {fileID: 41626347}
-  scoreText: {fileID: 1153130028}
-  currentSubLevelIndex: 0
+  introPanel: {fileID: 1348735458}
   correctXPos: 
   correctYPos: 
   correctWidth: 
