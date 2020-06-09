@@ -21,6 +21,7 @@ public class OnMusicSpawner : MonoBehaviour
     public GameObject spawnEffect;
     private Dictionary<string, GameObject> mySpawners = new Dictionary<string, GameObject>();
     public Score score;
+    private bool sentScore = false;
 
     public void StartSong(TargetCollection targetCollection, string songName, int bpm)
     {
@@ -115,7 +116,11 @@ public class OnMusicSpawner : MonoBehaviour
     {
         PlayerPrefs.SetString("CurrentSong", songName);
         PlayerPrefs.SetInt("CurrentScore" + songName, score.score);
-        WsClient.instance.SendScore(MinigameState.MOTORSKILLS, score.score);
+        if (!sentScore)
+        {
+            WsClient.instance.SendScore(MinigameState.MOTORSKILLS, score.score);
+            sentScore = true;
+        }
         if (PlayerPrefs.HasKey("CurrentHighScore" + songName))
         {
             int highscore = PlayerPrefs.GetInt("CurrentHighScore" + songName);
