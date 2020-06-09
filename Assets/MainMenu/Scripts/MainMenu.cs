@@ -15,6 +15,7 @@ public class MainMenu : MonoBehaviour
 	public TMPro.TMP_InputField inputNameJoin;
 	public TMPro.TMP_InputField inputNameCreate;
 
+	public TMPro.TextMeshProUGUI roomId;
 	public TMPro.TextMeshProUGUI playerList;
 
 	private GameObject previousPanel;
@@ -31,12 +32,14 @@ public class MainMenu : MonoBehaviour
 		WsClient.instance.OnSelfConnected += OnSelfConnected;
 	}
 
-	private void OnSelfConnected()
+	private void OnSelfConnected(string roomid)
 	{
 		previousPanel = currentPanel;
 		previousPanel.SetActive(false);
 		currentPanel = panelLobby;
 		currentPanel.SetActive(true);
+		roomId.text = "Kamer ID: " + roomid;
+		GUIUtility.systemCopyBuffer = WsClient.instance.Player.roomid;
 	}
 
 	private void OnPlayerJoined(PlayerDTO[] players)

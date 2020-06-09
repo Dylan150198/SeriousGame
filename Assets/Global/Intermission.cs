@@ -14,9 +14,15 @@ namespace Project.Global
 		public TextMeshProUGUI buttonText;
 		public TextMeshProUGUI scoreList;
 		public TextMeshProUGUI title;
+		public TextMeshProUGUI gameEnd;
 		public Button button;
 
 		private MinigameStateHandler sh;
+
+		private void Awake()
+		{
+			Screen.orientation = ScreenOrientation.Portrait;
+		}
 
 		void Start()
 		{
@@ -62,6 +68,8 @@ namespace Project.Global
 					break;
 				case MinigameState.BLURRY:
 					title.text = "Blurry vision";
+					buttonText.text = "Terug naar Menu";
+					gameEnd.text = "Spel afgelopen";
 					break;
 				case MinigameState.MOTORSKILLS:
 					title.text = "Motoring Skills";

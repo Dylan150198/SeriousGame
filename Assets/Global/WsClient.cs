@@ -19,7 +19,7 @@ namespace Project.Global
 		public static WsClient instance;
 
 		public event Action<PlayerDTO[]> OnPlayerJoined;
-		public event Action OnSelfConnected;
+		public event Action<string> OnSelfConnected;
 		public event Action<MinigameState[]> OnGameCompleted;
 		public event Action<Dictionary<int, ScoreDTO[]>> OnScoreUpdated;
 		private Dictionary<int, ScoreDTO[]> leaderbord;
@@ -84,7 +84,7 @@ namespace Project.Global
 			On("roomjoined", (E) =>
 			{
 				Player.roomid = E.data["roomid"].ToString().Trim('"');
-				OnSelfConnected?.Invoke();
+				OnSelfConnected?.Invoke(Player.roomid);
 			});
 
 			On("playerschanged", (E) =>

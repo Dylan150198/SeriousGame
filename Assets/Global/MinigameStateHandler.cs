@@ -34,7 +34,7 @@ namespace Project.Global
 
 		public void LoadIntermission()
 		{
-			if ((int)currentState == 5 || isFreePlay)
+			if (isFreePlay)
 			{
 				currentState = (MinigameState) 1;
 				previousState = (MinigameState)1;
@@ -68,6 +68,7 @@ namespace Project.Global
 					SceneManager.LoadScene("MotorSkills_SongSelection");
 					break;
 				default:
+					SceneManager.LoadScene("MainMenu");
 					break;
 			}
 		}
@@ -79,9 +80,9 @@ namespace Project.Global
 	{
 		
 		MAZE = 1,
-		PLATFORM = 5,
+		PLATFORM = 2,
 		CONNECTFOUR = 3,
 		MOTORSKILLS = 4,
-		BLURRY = 2,
+		BLURRY = 5,
 	}
 }
