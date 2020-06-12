@@ -21,12 +21,11 @@ public class GameCoordinator : MonoBehaviour
 
     void Start()
     {
-
         switchPanel.SetActive(false);
         finishPanel.SetActive(false);
         losePanel.SetActive(false);
         correctBtn = GameObject.Find("SceneBolCorrectBtn").GetComponent<Button>();
-
+        
         // Pick a random level
         float rnd = Random.Range(0, levels.Length - 1);
         for (int i = 0; i < levels.Length; i++)
@@ -41,6 +40,7 @@ public class GameCoordinator : MonoBehaviour
         LoadSubLevel();
 
         introText.text = currentLevel.objectiveText;
+
         StartCoroutine(PlayIntro());
 
     }
@@ -68,8 +68,6 @@ public class GameCoordinator : MonoBehaviour
 
     public void GameLost()
     {
-        int result;
-        int.TryParse(scoreText.text, out result);
         losePanel.SetActive(true);
         Debug.Log("Game Over you lost :(");
         WsClient.instance.SendScore(MinigameState.BLURRY, currentSubLevelIndex + 1);
